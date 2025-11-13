@@ -9,5 +9,5 @@ jobs:
     runs-on: ubunto-latest
 
     steps:
-       - name: hi
+      - name: hi
         run: echo "yoo"
