@@ -1,0 +1,13 @@
+name: usman
+
+on:
+   push:
+     branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubunto-latest
+
+     steps:
+       - name: hi
+        run: echo "yoo"
