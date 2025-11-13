@@ -8,6 +8,6 @@ jobs:
   demo:
     runs-on: ubunto-latest
 
-     steps:
+    steps:
        - name: hi
         run: echo "yoo"
